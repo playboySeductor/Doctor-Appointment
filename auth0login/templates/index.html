@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-<section class="fdb-block">
+<!-- <section class="fdb-block">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-md-12 col-lg-6 col-xl-5">
@@ -21,7 +21,64 @@
       </div>
     </div>
   </section><br><hr>
+  <section class="fdb-block"> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ladyhub-Security</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Bootstrap 5 CDN Links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Custom File's Link -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- <link rel="stylesheet" href="responsive-style.css"> -->
+  <link rel="stylesheet" href="static/style.css">
+  <audio id="myAudio">
+    <!-- <source src="Iphone Alarm.mp3" type="audio/mpeg"> -->
+  </audio>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+  <!-- Navbar section -->
+  
+
   <section class="fdb-block">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-5">
+          <h1> LadyHUB</h1>
+          <p class="lead mb-5">A Web application which brings the treatment from the world's best Doctors to you by just
+            one click!</p>
+
+          <p class="h1 text-muted">
+            <i class="fab fa-chrome mr-3"></i>
+            <i class="fab fa-safari mr-3"></i>
+            <i class="fab fa-firefox mr-3"></i>
+            <i class="fab fa-edge"></i>
+          </p>
+        </div>
+        <div class="col-12 col-md-8 m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0">
+          <img alt="image" class="img-fluid" src="https://preview.pixlr.com/images/800wm/1077/1/1077100334.jpg">
+        </div>
+      </div>
+    </div>
+  </section><br>
+  <hr>
+  <section class="fdb-block">
+
+
+
     <!-- <div class="container">
       <div class="row justify-content-center">
         <div class="col col-md-8 text-center">
@@ -59,5 +116,73 @@
       </div>
     </div>
   </section><br><hr> -->
-  
-{% endblock content %}
+
+
+    <section id="contact" class="footer_wrapper wrapper">
+      <div class="container pb-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mt-4">
+            <h5>Ladyhub Office</h5>
+            <p class="ps-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim erat ut
+              laoreet
+              pharetra....</p>
+            <div class="contact-info">
+              <ul class="list-unstyled p-0">
+                <li><a href="#"><i class="fa fa-home me-3"></i> Jadavpur University , Kolkata</a></li>
+                <li><a href="#"><i class="fa fa-phone me-3"></i>+91 8100522467</a></li>
+                <li><a href="#"><i class="fa fa-envelope me-3"></i>ladyhub2022@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mt-4">
+            <h5>More Links</h5>
+            <ul class="link-widget p-0">
+              <!-- <li><a href="#">About Us</a></li> -->
+              <!-- <li><a href="#">Our Office</a></li> -->
+              <li><a href="#">Delivery</a></li>
+              <!-- <li><a href="#">Our Store</a></li> -->
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mt-4">
+            <h5>More Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <!-- <li><a href="#">Delivery</a></li> -->
+              <li><a href="#">Our Store</a></li>
+              <!-- <li><a href="#">Guarantee</a></li> -->
+              <!-- <li><a href="#">Buy Gift Card</a></li> -->
+              <!-- <li><a href="#">Return Policy</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mt-4">
+            <h5>Newsletter</h5>
+            <div class="form-group mb-4">
+              <input type="email" class="form-control bg-transparent" placeholder="Enter Your Email Here">
+              <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">Subscribe</button>
+            </div>
+            <h5>Stay Connected</h5>
+            <ul class="social-network d-flex align-items-center p-0 ">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+              <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="container-fluid copyright-section">
+        <p class="p-0">Copyright <a href="#">@Ladyhub</a>2022 All Rights Reserved</p>
+      </div>
+    </section>
+
+    
+
+        {% endblock content %}
